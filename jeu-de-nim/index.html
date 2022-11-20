@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de nim</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+	<body>
+		<div id="all">
+			<div id="rules">
+				<h1>Jeux de Nim</h1>
+				<p>Le but du jeu est très simple. 16 allumette sont disposées en ligne.
+					<br> A tour de rôle, chacun des 2 joueurs doit prendre 1, 2 ou 3 allumette(s).
+					<br> Le gagnant est le joueur qui prendra la ou les dernieres allumettes </p>
+			</div>
+			<div id="content">
+				<div id="form_play">
+					<div>
+						<label for="namePlayer1">Joueur 1 :</label>
+						<input type="text" name="namePlayer1" id="namePlayer1">
+					</div>
+					<div>
+						<label for="namePlayer">Joueur 2 :</label>
+						<input type="text" name="namePlayer2" id="namePlayer2">
+					</div>
+					<div>
+						<input type="button" value="Jouer" id="btnPlay">
+					</div>
+				</div>
+				<div id="main">
+					<div id="getNamePlayer"></div>
+					<div id="board"></div>
+					<input type="button" id="btnRemove" value="Valider">
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/my.js"></script>
+	</body>
+</html>
